@@ -1,682 +1,1100 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- ============ Meta Tags ============ -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Alex-Suprun - Personal Portfolio">
-        <!-- ========== Page Title ========== -->
-        <title>Monowar - Personal Portfolio</title>
-        <!--========== All css here ================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-<!--============== start home section ================-->
-    	<div class="home-section">
-            <div class="container-fluid">
-        		<div class="row align-items-center">
-        			<div class="col-lg-5">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home Default || Monowar - Personal Portfolio</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+     <!-- <link rel="stylesheet" href="assets/css/vendor/aos.css">  -->
+    <!--  <link rel="stylesheet" href="assets/css/plugins/feature.css"> --> 
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="template-color-1 spybody white-version" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="index.html">Monowar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Left -->
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+                <div class="header-center">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block onepagenav">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <li class="nav-item current"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                        <a class="rn-btn" href="tel:01863366040"><span>Call Now</span></a>
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu fa fa-bars"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                            <i data-feather="x"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+        <div class="inner">
+            <div class="menu-top">
+                <div class="menu-header">
+                    <a class="logo" href="index.html">Monowar</a>
+                    <div class="close-button">
+                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <ul class="primary-menu nav nav-pills onepagenav">
+                    <li class="nav-item current"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">blog</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                </ul>
+                <!-- social sharea area -->
+                <div class="social-share-style-1 mt--40">
+                    <span class="title">find with me</span>
+                    <ul class="social-share d-flex liststyle">
+                        </li>
+                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg></a>
+                        </li>
+                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg></a>
+                        </li>
+                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </div>
+    <!-- End Popup Mobile Menu  -->
+
+
+
+
+    <main class="main-page-wrapper">
+
+        <!-- Start Slider Area -->
+        <div id="home" class="rn-slider-area">
+            <div class="slide slider-style-1">
+                <div class="container">
+                    <div class="row row--30 align-items-center">
+                        <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+                            <div class="content">
+                                <div class="inner">
+                                    <h1 class="title">Hi, I’m <span>Monowar</span><br>
+                                        <span class="header-caption" id="page-top">
+                                            <!-- type headline start-->
+                                            <span class="cd-headline clip is-full-width">
+                                                <span>a </span>
+                                        <!-- ROTATING TEXT -->
+                                        <span class="cd-words-wrapper">
+                                                    <b class="is-visible">WordPress Developer.</b>
+                                                    <b class="is-hidden">Professional Coder.</b>
+                                                    <b class="is-hidden">Ecommerce Developers.</b>
+                                                </span>
+                                        </span>
+                                        <!-- type headline end -->
+                                        </span>
+                                    </h1>
+
+                                    <div>
+                                        <p class="description">I use animation as a third dimension by which to simplify
+                                            experiences and kuiding thro each and every interaction. I’m not adding
+                                            motion
+                                            just to spruce things up, but doing it in ways that.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                                        <div class="social-share-inner-left">
+                                            <span class="title">find with me</span>
+                                            <ul class="social-share d-flex liststyle">
+                                                <li><a href="https://www.facebook.com/kstmonowar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a></li>
+                                                
+                                                <li><a href="http://m.me/kstmonowar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 29.71 134.78 78.07 177.94 8.35 7.51 6.63 11.86 8.05 58.23A19.92 19.92 0 0 0 122 502.31c52.91-23.3 53.59-25.14 62.56-22.7C337.85 521.8 504 423.7 504 248.57 504 110.34 396.59 8 256.55 8zm149.24 185.13l-73 115.57a37.37 37.37 0 0 1-53.91 9.93l-58.08-43.47a15 15 0 0 0-18 0l-78.37 59.44c-10.46 7.93-24.16-4.6-17.11-15.67l73-115.57a37.36 37.36 0 0 1 53.91-9.93l58.06 43.46a15 15 0 0 0 18 0l78.41-59.38c10.44-7.98 24.14 4.54 17.09 15.62z"/></svg></a></li>
+
+                                                <li><a href="https://www.facebook.com/kstmonowar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-1 order-lg-2 col-lg-5">
+                            <div class="thumbnail">
+                                <div class="inner">
+                                    <img src="assets/img/monowar.png" alt="Personal Portfolio Images">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Slider Area -->
+
+        <!-- Start Service Area -->
+        <div class="rn-service-area rn-section-gap section-separator" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
+                            <h2 class="title">Amazing Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--25 mt_md--10 mt_sm--10">
+
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="menu"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">PSD/XD/FIGMA to WordPress</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="book-open"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Portfolio Site Development</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="tv"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">WordPress Demo Import Install</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="twitch"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Elementor Addon Development</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="wifi"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Ecommerce Site Development</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="slack"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Simple Plugin Development</a></h4>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+
+                </div>
+            </div>
+        </div>
+        <!-- End Service Area  -->
+
+        <!-- Start Portfolio Area -->
+        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2 class="title">My Portfolio</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio8.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Development</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        600</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">The services provide for design <i
+                                        class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio7.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Application</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        750</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">Mobile app landing design & app
+                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio3.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Photoshop</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        630</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">Logo design creativity & Application
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio2.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Figma</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        360</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">Mobile app landing design &
+                                            Services<i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio5.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Web Design</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        280</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">Design for tecnology & services<i
+                                        class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/portfolio6.png" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Web Design</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="#"><img src="assets/img/heart.png"></a>
+                                        690</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">App for tecnology & services<i
+                                        class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Portfolio -->
+                </div>
+            </div>
+        </div>
+        <!-- End portfolio Area -->
+
+
+
+        <!-- Start Resume Area -->
+                <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="hero-pic"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row main-section">
-                            <div class="col-md-6 d-flex order-1">
-                                <div class="section-page about-section">
-                                    <a href="#">
-										<div class="box-text-center">
-											<span class="color">ABOUT </span> <span class="white">ME</span>
-										</div>
-									</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex order-2">
-                                <div class="section-page resume-section">
-									<a href="#">
-										<div class="box-text-center">
-											<span class="color">MY </span> <span class="white">RESUME</span>
-										</div>
-									</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex order-0 order-md-3">
-                                <div class="section-page my-home mtb-30-0">
-                                    <a href="https://www.facebook.com/kstmonowar">
-										<div class="box-text-center">
-											<span>Monowar Hossain</span><br>
-											<span class="desig" >I am Web Developer</span><br>
-											<span class="social" >
-												<span class="fa fa-facebook"></span>
-												<span class="fa fa-behance"></span>
-												<span class="fa fa-dribbble"></span>
-												<span class="fa fa-linkedin"></span>
-											</span>
-										</div>
-									</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex order-3">
-                                <div class="section-page service-section mtb-30-0">
-                                    <a href="#">
-										<div class="box-text-center">
-											<span class="color">MY </span><span class="white">SERVICE</span>
-										</div>
-									</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex order-4">
-                                <div class="section-page portfolio-section">
-									<a href="#">
-										<div class="box-text-center">
-											<span class="color">MY </span> <span class="white">PORTFOLIO</span>
-										</div>
-									</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex order-5">
-                                <div class="section-page contact-section">
-                                    <a href="#">
-										<div class="box-text-center">
-											<span class="color">CONTACT </span> <span class="white">ME</span>
-										</div>
-									</a>
+                            <div class="col-lg-12">
+                                <div class="section-title text-center">
+                                    <h2 class="title">My Resume</h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-    		</div>
-    	</div>
-<!--============== end home section ================-->
+
+                        <div class="row mt--45">
 
 
-<!--============== start about section ================-->
-        <div id="about-section" class="tech-panel">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 about-info mCustomScrollbar about-scroll">
-                        <div class="about-content">
-							<h2 class="title-about-me">WordPress Developer</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem a eum in voluptatibus optio delectus sed fugiat, voluptas modi perspiciatis assumenda animi, corporis deleniti. Sunt obcaecati velit nisi voluptas deserunt veniam, voluptatum vero dolores, rem eos suscipit nihil, mollitia itaque molestiae laborum laudantium corrupti voluptatem quod quibusdam minima temporibus quisquam aliquam. Facilis minus aspernatur libero excepturi tempora fugiat perspiciatis illo facere alias, laboriosam, totam repellendus quisquam maiores tenetur aut praesentium, vero molestiae. excepturi tempora fugiat perspiciatis.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit illum consectetur, exercitationem totam ipsum nostrum aspernatur, autem minus, aliquam rerum maiores quidem laudantium numquam aperiam. Atque eos doloribus totam. Ea facilis in assumenda incidunt, aspernatur debitis</p>
-							<ul>
-								<li><span><b>Name :</b> Monowar Hossain</span></li>
-								<li><span><b>Address :</b> Kumarkhali, Kushtia</span></li>
-							</ul>
-							<ul>
-								<li><span><b>Phone :</b> +8801963252787</span></li>
-								<li><span><b>Age :</b> 26</span></li>
-							</ul>
-
-							<div class="social-links">
-								<a href="https://www.facebook.com/kstmonowar"><i class="fa fa-facebook"></i></a>
-								<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-								<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-								<a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
-								<a href="#" target="_blank"><i class="fa fa-behance"></i></a>
-							</div>
-							<a href="https://www.facebook.com/kstmonowar" class="btn-medium-border">Download CV</a>
-						</div>
-
-                        <div class="fun-facts">
-                            <h2 class="text-center">Fun Facts</h2>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="item text-center">
-                                        <div class="fun-box">
-                                            <span class="fa fa-suitcase"></span>
-                                            <h4 class="count">4+</h4>
-                                            <h5>YEARS EXPERIENCE</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="item text-center">
-                                        <div class="fun-box">
-                                            <span class="fa fa-check"></span>
-                                            <h4 class="count">196+</h4>
-                                            <h5>Projects Done</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="last-mb-0 item text-center">
-                                        <div class="fun-box">
-                                            <span class="fa fa-heart"></span>
-                                            <h4 class="count">182+</h4>
-                                            <h5>happy client</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="last-mb-0 item text-center">
-                                        <div class="fun-box">
-                                            <span class="fa fa-trophy"></span>
-                                            <h4 class="count">25+</h4>
-                                            <h5>AWARDS WON</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!--============== end about section ================-->
-
-
-<!--============== start resume section ================-->
-        <div id="resume-section" class="tech-panel">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 mCustomScrollbar resume-scroll">
-                        <h2 class="page-title text-center">Resume Services</h2>
-                        <div class="timeline-zone">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="experience mb-xs-20">
-                                        <h3 class="inner-title">Job Experience</h3>
-                                        <div class="experience-border">
-                                            <div class="experience-wrapper">
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>Frond End Developer</h4>
-                                                        <span>2018 - 2019 | Techoners</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>Fornt-End Developer</h4>
-                                                        <span>2019 - 2021 | DevsForYou</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>WordPress Developer</h4>
-                                                        <span>2021 - | Itnuthosting/</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
+                            <!-- Start Single Progressbar  -->
+                            <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                <div class="progress-wrapper">
+                                    <div class="content">
+                                        <h4 class="maintitle">Personal Skills</h4>
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">Team Work</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">85%</span></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="experience mb-xs-20">
-                                        <h4 class="inner-title">Education</h4>
-                                        <div class="experience-border">
-                                            <div class="experience-wrapper">
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>Phd</h4>
-                                                        <span>2011 - 2013 | Computer Science</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>Post Graduation</h4>
-                                                        <span>2013 - 2016 | Computer Science</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
-                                                <div class="edu-item">
-                                                    <div class="item-header">
-                                                        <h4>Gradution</h4>
-                                                        <span>2016 - 2018 | Computer Science</span>
-                                                    </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quibusdam aperiam cumque eligendi labore amet esse repudiandae hic optio, mollitia illum assumenda sit eaque et ea at alias tempora maxime.</p>
-                                                </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">Leadership</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">80%</span></div>
                                             </div>
                                         </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">Communication</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">90%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">SOFTWARE</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">75%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">PLUGIN</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">70%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
                                     </div>
                                 </div>
                             </div>
+                            <!-- End Single Progressbar  -->
+
+
+                            <!-- Start Single Progressbar  -->
+                            <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                <div class="progress-wrapper">
+                                    <div class="content">
+                                        <h4 class="maintitle">Professional Skills</h4>
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">WordPress</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">85%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">CSS</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">80%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">PHP / MYSQL</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">90%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">HTML</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">75%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                        <!-- Start Single Progress Charts -->
+                                        <div class="progress-charts">
+                                            <h6 class="heading heading-h6">PLUGIN</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                class="percent-label">70%</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progress Charts -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Progressbar  -->
+
+
                         </div>
-
-                        <!--Personel Skills-->
-						<div class="skill-wrap">
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="skills mb-xs-20">
-										<div>
-											<h3 class="skills-title">Personal Skills</h3>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">Team Work</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="91" style="width: 91%;">
-													<div class="progress-value">91%</div>
-												</div>
-											</div>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">Leadership</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="82" style="width: 82%;">
-													<div class="progress-value">70%</div>
-												</div>
-											</div>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">Communication</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="94" style="width: 94%;">
-													<div class="progress-value">80%</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!--Professional Skill-->
-								<div class="col-sm-6">
-									<div class="skills">
-										<div >
-											<h3 class="skills-title">Professional Skills</h3>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">WordPress</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="83" style="width: 83%;">
-													<div class="progress-value">83%</div>
-												</div>
-											</div>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">PHP / MYSQL</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="75" style="width: 75%;">
-													<div class="progress-value">65%</div>
-												</div>
-											</div>
-										</div>
-										<div class="skill-item">
-											<h5 class="progress-title">HTML</h5>
-											<div class="progress">
-												<div class="progress-bar" data-progress-value="92" style="width: 92%;">
-													<div class="progress-value">95%</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
-        </div>
-<!--============== end resume section ================-->
+
+        <!-- End Resume Area -->
 
 
-<!--============== start service section ================-->
-        <div id="service-section" class="tech-panel">
-            <div class="container-fluid">
+
+
+
+
+
+
+        <!-- Start Testimonia Area  -->
+        <div class="rn-testimonial-area rn-section-gap section-separator" id="testimonial">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 mCustomScrollbar service-scroll">
-                        <h2 class="page-title text-center">Amazing Services</h2>
-                        <div class="service_wrapper">
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-cog"></span>
-											<h3>PSD to WordPress</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-bandcamp"></span>
-											<h3>PSD/XD to HTML</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-file"></span>
-											<h3>WordPress Demo Import Install</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-certificate"></span>
-											<h3>Elementor Addon Development</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-flag"></span>
-											<h3>VC Addon Development</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="single-service text-center">
-										<div class="service-box">
-											<span class="fa fa-signing"></span>
-											<h3>Simple Plugin Development</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, beatae nihil fugiat, omnis impedit laborum.</p>
-										</div>
-									</div>
-								</div>
-							</div>
+                    <div class="col-lg-12">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center">
+                            <h2 class="title">Testimonial</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
+                    <div class="col-lg-12">
+                        <div class="testimonial-activation testimonial-pb mb--30">
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="assets/img/testimonial-author-1.png" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Rainbow-Themes</span>
+                                            <h3 class="title">Nevine Acotanza</h3>
+                                            <span class="designation">Chief Operating Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Development</h3>
+                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="assets/img/testimonial-author-2.png" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Bound - Trolola</span>
+                                            <h3 class="title">Jone Duone Joe</h3>
+                                            <span class="designation">Operating Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Web App Development</h3>
+                                                <span class="date">Upwork - Mar 4, 2016 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="assets/img/testimonial-author-3.png" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Glassfisom</span>
+                                            <h3 class="title">Nevine Dhawan</h3>
+                                            <span class="designation">CEO Of Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Design</h3>
+                                                <span class="date">Fiver - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            No more question for design. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="assets/img/testimonial-author-1.png" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">NCD - Design</span>
+                                            <h3 class="title">Mevine Thoda</h3>
+                                            <span class="designation">Marketing Officer</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">CEO - Marketing</h3>
+                                                <span class="date">Thoda Department - Mar 4, 2018 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
+
+                            <!-- Start Single testiminail -->
+                            <div class="testimonial mt--50 mt_md--40 mt_sm--40">
+                                <div class="inner">
+                                    <div class="card-info">
+                                        <div class="card-thumbnail">
+                                            <img src="assets/img/testimonial-author-2.png" alt="Testimonial-image">
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="subtitle mt--10">Default name</span>
+                                            <h3 class="title">Davei Luace</h3>
+                                            <span class="designation">Chief Operating Manager</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-description">
+                                        <div class="title-area">
+                                            <div class="title-info">
+                                                <h3 class="title">Android App Development</h3>
+                                                <span class="date">via Upwork - Mar 4, 2015 - Aug 30, 2021</span>
+                                            </div>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="seperator"></div>
+                                        <p class="discription">
+                                            When managment is so important. Ut tincidunt est ac dolor aliquam
+                                            sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                            hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single testiminail -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<!--============== end service section ================-->
+        <!-- End Testimonia Area  -->
 
-
-<!--============== start portfolio section ================-->
-        <div id="portfolio-section" class="tech-panel">
-            <div class="container-fluid">
+        <!-- Start News Area -->
+        <div class="rn-blog-area rn-section-gap section-separator" id="blog">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 mCustomScrollbar portfolio-scroll">
-						<div class="portfolio-wrapper">
-							<h2 class="page-title text-center">Portfolio</h2>
-							<div class="row">
-								<div class="projects-filter">
-									<ul>
-										<li class="active" data-filter="*">ALL ITEMS</li>
-										<li data-filter=".branding">BRANDING</li>
-										<li data-filter=".illustration">ILLUSTRATION</li>
-										<li data-filter=".photoshop">PHOTOSHOP</li>
-										<li data-filter=".ui-ux">UI/UX</li>
-									</ul>
-								</div>
-							</div>
+                    <div class="col-lg-12">
+                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center">
+                            <h2 class="title">My Blog</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
 
-							<div class="grid row zoom-gallery">
-								<div class="col-sm-6 element-item branding">
-									<div class="single-portfolio portfolio-1">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>READ</h3>
-												<p>for bloggers</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/1.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 element-item photoshop illustration">
-									<div class="single-portfolio portfolio-2">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>WIZARD ADVENTURE</h3>
-												<p>lightbox gallery</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/2.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 element-item ui-ux branding illustration">
-									<div class="single-portfolio portfolio-3">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>BOOK CARD</h3>
-												<p>a vcard theme</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/3.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 element-item photoshop ui-ux illustration">
-									<div class="single-portfolio portfolio-4">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>ON THE DESERT</h3>
-												<p>an illustration work</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/4.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 element-item photoshop ui-ux branding">
-									<div class="single-portfolio portfolio-5">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>PHOTOGRAPHER</h3>
-												<p>for photographers</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/5.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 element-item branding illustration photoshop">
-									<div class="single-portfolio portfolio-6">
-										<div class="overlay text-center">
-											<div class="content">
-												<h3>VIRUS PROTECTION</h3>
-												<p>an illustration work</p>
-												<a class="fancybox" data-fancybox-group="gallery" href="assets/img/portfolio/6.jpg">
-													<span class="fa fa-plus"></span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                    <!-- Start Single blog -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                        <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/blog1.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Canada</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><i class="feather-clock"></i> 2 min read</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">T-shirt design is the part of design
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single blog -->
+
+                    <!-- Start Single blog -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="150" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                        <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/blog2.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Development</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><i class="feather-clock"></i> 2 hour read</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">The services provide for design <i
+                                        class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single blog -->
+
+                    <!-- Start Single blog -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                        <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/img/blog3.jpg" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="#">Application</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><i class="feather-clock"></i> 5 min read</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="#">Mobile app landing design & app
+                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single blog -->
+
+                </div>
+            </div>
+        </div>
+        <!-- ENd Mews Area -->
+        <!-- Start Contact section -->
+        <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2 class="title">CONTACT ME</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+
+                    <div class="col-lg-4">
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa fa-location-arrow"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="header">Address</h4>
+                                    <p class="bio">Kushtia, Dhaka Bangladesh</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa fa-envelope-open"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="header">Email</h4>
+                                    <p class="bio"><a href="mailto:Kstmonowar@gmail.com">Kstmonowar@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="header">Phone</h4>
+                                    <p class="bio"><a href="tel:01863366040">+8801863366040</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="header">Freelance</h4>
+                                    <p class="bio">Available</p>
+                                </div>
+                            </div>
+
+                    </div>
+
+
+                    <div data-aos-delay="600" class="col-lg-8 contact-input">
+                        <div class="contact-form-wrapper">
+                            <div class="introduce">
+
+                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="mail.php">
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-lg" name="contact-name" placeholder="Your Name" id="contact-name" type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" name="contact-phone" placeholder="Phone Number" id="contact-phone" type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-sm" id="contact-email" placeholder="Email" name="contact-email" type="email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-sm" id="subject" placeholder="subject" name="subject" type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <textarea name="contact-message" id="contact-message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <button name="submit" type="submit" id="submit" class="rn-btn">
+                                            <span>SEND MESSAGE</span>
+                                            <i data-feather="arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<!--============== end portfolio section ================-->
+        <!-- End Contuct section -->
 
 
-<!--============== start contact section ================-->
-		<div id="contact-section" class="tech-panel">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-12 mCustomScrollbar contact-scroll">
-						<div class="row contact-information">
-							<div class="col-lg-12 text-center">
-								<h2 class="title">CONTACT ME</h2>
-							</div>
-							<div class="col-md-6">
-								<div class="contact-box">
-									<div class="contact-icon">
-										<i class="fa fa-location-arrow"></i>
-									</div>
-									<div class="contact-info">
-										<h4 class="header">Address</h4>
-										<p class="bio">Kumarkhali, Kushtia</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="contact-box">
-									<div class="contact-icon">
-										<i class="fa fa-envelope-open"></i>
-									</div>
-									<div class="contact-info">
-										<h4 class="header">Email</h4>
-										<p class="bio">Kstmonowar@gmail.com</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="contact-box">
-									<div class="contact-icon">
-										<i class="fa fa-phone"></i>
-									</div>
-									<div class="contact-info">
-										<h4 class="header">Phone</h4>
-										<p class="bio">+8801863366040</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="contact-box">
-									<div class="contact-icon">
-										<i class="fa fa-check"></i>
-									</div>
-									<div class="contact-info">
-										<h4 class="header">Freelance</h4>
-										<p class="bio">Available</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<form action="https://formspree.io/kstmonowar@mail.com" method="post">
-							<div class="row">
-								<div class="col-lg-12 text-center">
-									<h3 class="contact-title title">get in touch</h3>
-								</div>
-								<div class="form-group col-lg-6">
-									<input type="text" name="name" placeholder="Your Name" class="form-control input-lg" data-area="type"/>
-								</div>
-								<div class="form-group col-lg-6">
-									<input type="email" name="email" placeholder="Your Email" class="form-control input-lg" data-area="type"/>
-								</div>
-								<div class="form-group col-lg-12">
-									<input type="text" name="text" placeholder="Subject" class="form-control input-lg" data-area="type">
-								</div>
-								<div class="form-group col-lg-12">
-									<textarea placeholder="Message" class="form-control input-lg"></textarea>
-								</div>
-								<div class="form-group col-lg-12 text-center">
-									<button class="btn btn-block" type="submit">Send Message</button>
-								</div>
-							</div>
-						</form>
-						<div class="google-map">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="contact-map">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29416.765602911735!2d89.54890635!3d22.8359486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9a862db81beb%3A0x2303307aa7d12e26!2sTechoners!5e0!3m2!1sbn!2sbd!4v1541598754061" width="600" height="450" style="border:0" allowfullscreen></iframe>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> 
-<!--============== end contact section ================-->
+        <!-- Back to  top Start -->
+        <div class="backto-top">
+            <div>
+                <i data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- Back to top end -->
 
 
-<!--============== start right menu ================-->
-		<div class="right-menu">
-			<ul>
-				<li class="active myhome">
-					<a href="#">
-						<span class="icon fa fa-home"></span>
-						<span class="hover">Home</span>
-					</a>
-				</li>
-				<li class="about-section">
-					<a href="#">
-						<span class="icon fa fa-user"></span>
-						<span class="hover">About</span>
-					</a>
-				</li>
-				<li class="resume-section">
-					<a href="#">
-						<span class="icon fa fa-graduation-cap"></span>
-						<span class="hover">Resume</span>
-					</a>
-				</li>
-				<li class="service-section">
-					<a href="#">
-						<span class="icon fa fa-cog"></span>
-						<span class="hover">Service</span>
-					</a>
-				</li>
-				<li class="portfolio-section">
-					<a href="#">
-						<span class="icon fa fa-briefcase"></span>
-						<span class="hover">Portfolio</span>
-					</a>
-				</li>
-				<li class="contact-section">
-					<a href="#">
-						<span class="icon fa fa-envelope"></span>
-						<span class="hover">Contact</span>
-					</a>
-				</li>
-			</ul>
-
-			<ul class="social">
-				<li>
-					<a target="_blank" href="https://www.facebook.com/kstmonowar">
-						<span class="icon fa fa-facebook"></span>
-						<span class="hover">facebook</span>
-					</a>
-				</li>
-				<li>
-					<a target="_blank" href="#">
-						<span class="icon fa fa-behance"></span>
-						<span class="hover">behance</span>
-					</a>
-				</li>
-				<li>
-					<a target="_blank" href="#">
-						<span class="icon fa fa-dribbble"></span>
-						<span class="hover">dribbble</span>
-					</a>
-				</li>
-				<li>
-					<a target="_blank" href="#">
-						<span class="icon fa fa-linkedin"></span>
-						<span class="hover">linkedin</span>
-					</a>
-				</li>
-			</ul>
-		</div>
-<!--============== end right menu ================-->
 
 
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/popper-1.12.3.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/jquery.fancybox.pack.js"></script>
-        <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
-        <script src="assets/js/main.js"></script>
+    </main>
 
-    </body>
+    <!-- Start Footer Area -->
+    <div class="rn-footer-area section-separator">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-area text-center">
+                        <p class="description ptb--15">© 2022 All Rights Reserved by Monowar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Area -->
+
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/6171843810.js" crossorigin="anonymous"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
